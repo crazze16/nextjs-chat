@@ -1,0 +1,17 @@
+.nav {
+  border-bottom: 1px solid #0070f3;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav ul li{
+  font-weight: 500;
+  margin: 0 5px;
+}

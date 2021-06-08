@@ -1,0 +1,33 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: relative;
+}
+.new_message{
+  position: absolute;
+  background: #004fa8;
+  width: 200px;
+  left: calc(50% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 30px;
+  bottom: 60px;
+  color: white;
+  opacity: 60%;
+  &:hover {
+    opacity: 90%;
+    cursor: pointer;
+  }
+}
+.warning {
+  margin: 0 auto;
+  font-size: 24px;
+  width: 300px;
+  text-align: center;
+}
+.warning a {
+  color: #0070f3;
+}
