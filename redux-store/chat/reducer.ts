@@ -16,7 +16,7 @@ const ChatReducer = (state = initialState, action: InferActionsTypes<typeof Chat
                 ...state,
                 // messages: action.messages
                 // messages: [...new Set( [...state.messages, ...action.messages] )]
-                // messages: [...state.messages, ...action.messages]
+                // messages: [...state.messages, ...action.messages] этот вариант я юзал на проекте с фильмами. Он работал. Здесь же нет.
             };
         case "SET_CHANNEL_STATUS":
             return {
